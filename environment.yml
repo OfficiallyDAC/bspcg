@@ -1,0 +1,33 @@
+name: BSPCG
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - scipy
+  - networkx
+  - numpy
+  - python=3.9
+  - statsmodels
+  - matplotlib
+  - cvxpy
+  - seaborn
+  - pip
+  - pandas
+  - jupyter
+  - multiprocess
+  - tqdm
+  - scikit-learn
+  - openpyxl
+  - pip:
+      - absl-py
+      - charset-normalizer
+      - jaxlib
+      - jaxopt
+      - lxml
+      - opt-einsum
+      - pandas-datareader
+      - pylops
+      - pyproximal
+      - requests
+      - urllib3
